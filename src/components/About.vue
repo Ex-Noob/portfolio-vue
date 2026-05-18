@@ -11,7 +11,7 @@
                                     :data-aos="image.animation" :data-aos-delay="image.delay">
                                     <div class="rounded-2xl p-2 border shadow-lg" :class="image.gradient">
                                         <img :src="image.src" :alt="image.alt"
-                                            class="w-full h-48 object-cover rounded-xl group-hover:scale-105 transition-transform duration-300">
+                                            class="w-full h-48 object-cover object-top rounded-xl group-hover:scale-105 transition-transform duration-300">
                                     </div>
                                     <div class="absolute -top-2 -right-2 text-white text-xs px-2 py-1 rounded-full font-semibold"
                                         :class="image.badgeColor">
@@ -59,13 +59,12 @@
                         </div>
                     </div>
                     <div class="flex gap-4 pt-8 flex-col sm:flex-row" data-aos="fade-up" data-aos-delay="400">
-                        <button v-for="button in ctaButtons" :key="button.id"
-    @click="button.action"
-    class="px-8 py-3 rounded-xl font-semibold transition-all duration-300 flex items-center justify-center"
-    :class="button.classes">
-    <component :is="button.icon" class="w-4 h-5" :class="button.iconclass" />
-    {{ button.text }}
-</button>
+                        <button v-for="button in ctaButtons" :key="button.id" @click="button.action"
+                            class="px-8 py-3 rounded-xl font-semibold transition-all duration-300 flex items-center justify-center"
+                            :class="button.classes">
+                            <component :is="button.icon" class="w-4 h-5" :class="button.iconclass" />
+                            {{ button.text }}
+                        </button>
                     </div>
                 </div>
             </div>
@@ -83,9 +82,9 @@ import {
     ServerIcon
 } from '@heroicons/vue/16/solid';
 import about1 from '../../public/about1.jpeg';
-import about2 from '../../public/about2.jpg';
-import about3 from '../../public/about3.jpg';
-import about4 from '../../public/about4.jpg';
+import about2 from '../../public/about2.png';
+import about3 from '../../public/about3.png';
+import about4 from '../../public/about4.jpeg';
 
 const scrollToSection = (id) => {
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
