@@ -16,14 +16,15 @@
                     </div>
                     <p class="text-gray-300 pt-6 text-center lg:text-left mx-auto max-w-xl text-lg leading-relaxed"
                         data-aos="fade-right" data-aos-delay="200">
-                        I'm a self-taught developer building real things while I learn. I turn ideas into clean, working websites — no fluff, just code. Every project I ship teaches me something new, and I'm just getting started.
+                        I'm a self-taught developer building real things while I learn. I turn ideas into clean, working
+                        websites — no fluff, just code. Every project I ship teaches me something new, and I'm just
+                        getting started.
                     </p>
                     <div class="flex items-center gap-4 pt-8 flex-col
                     sm:flex-row sm:w-max sm:mx-auto lg:mx-0" data-aos="fade-up" data-aos-delay="300">
-                        
-                    <!-- Contact Me Button  -->
-                    <button
-                            @click="scrollToContact"
+
+                        <!-- Contact Me Button  -->
+                        <button @click="scrollToContact"
                             class="px-8 md:px-10 py-4 rounded-xl relative group w-full sm:w-max flex justify-center overflow-hidden bg-linear-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-500 transition-all duration-300">
                             <span class="relative flex items-center justify-center text-white font-semibold text-lg">
                                 Contact Me
@@ -72,18 +73,17 @@
                 </div>
                 <!-- Image -->
                 <div class="lg:h-full flex justify-center lg:justify-end">
-                    <div class="relative w-full max-w-md lg:max-w-lg">
+                    <div class="relative w-full max-w-sm md:max-w-md lg:max-w-lg">
                         <div class="relative z-10 bg-linear-to-r from-blue-600 to-cyan-600 shadow-2xl 
-                        rounded-[50%_40%_30%_60%/60%_30%_70%_30%]
-                        p-4 backdrop-blur-sm border border-blue-500/30 -translate-y-6" data-aos="zoom-in"
-                            data-aos-delay="500">
+        rounded-[50%_40%_30%_60%/60%_30%_70%_30%]
+        p-4 backdrop-blur-sm border border-blue-500/30" data-aos="zoom-in" data-aos-delay="500">
                             <div class="rounded-xl overflow-hidden">
-                                <img src="/hero3.png" alt="Ibtihaj - Empty Stack Developer" loading="lazy"
-                                    class="w-full h-auto object-contain -translate-y-8" />
+                                <img src="../../public/hero3.png" alt="Ibtihaj - Front-End Developer" loading="lazy"
+                                    class="w-full h-auto object-contain" />
                             </div>
                         </div>
                         <div
-                            class="absolute -top-2 -right-4 w-10 h-10 bg-blue-400 rounded-full blur-sm opacity-6 animate-pulse">
+                            class="absolute -top-2 -right-4 w-10 h-10 bg-blue-400 rounded-full blur-sm opacity-60 animate-pulse">
                         </div>
                     </div>
                 </div>
