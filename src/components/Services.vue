@@ -42,7 +42,8 @@
                 <div class="text-center mt-16" data-aos="fade-up" data-aos-delay="800">
                     <div class="inline-flex flex-col sm:flex-row gap-4 items-center">
                         <button
-                            class="px-8 py-4 rounded-xl border-2 border-blue-400 text-blue-400 font-semibold hover:bg-blue-400/10 transition-all duration-300 flex items-center">
+                            @click="scrollToContact"
+                            class="px-8 py-4 rounded-xl border-2 border-blue-400 text-blue-400 font-semibold hover:bg-blue-400/10 transition-all duration-300 flex items-center hover:cursor-pointer">
                             Get In Touch
                             <ChatBubbleLeftRightIcon class="w-5 h-5 ml-2" />
                         </button>
@@ -64,6 +65,10 @@ import {
     ChatBubbleLeftRightIcon
 } from '@heroicons/vue/16/solid';
 import { ref } from 'vue';
+
+const scrollToContact = () => {
+    document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+};
 
 const services = ref([
     {

@@ -81,10 +81,10 @@ import {
     PaintBrushIcon,
     ServerIcon
 } from '@heroicons/vue/16/solid';
-import about1 from '../../public/about1.jpeg';
-import about2 from '../../public/about2.png';
-import about3 from '../../public/about3.png';
-import about4 from '../../public/about4.jpeg';
+import about1 from '/about1.jpeg';
+import about2 from '/about2.png';
+import about3 from '/about3.png';
+import about4 from '/about4.jpeg';
 
 const scrollToSection = (id) => {
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });

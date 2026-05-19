@@ -1,6 +1,6 @@
 <template>
     <section class="relative w-full overflow-hidden min-h-screen flex items-center" id="hero">
-        <div class="w-full px-5 sm:px-8 md:px-12 lg:px-8 max-w-5xl lg:max-w-7xl mx:auto relative z-10">
+        <div class="w-full px-5 sm:px-8 md:px-12 lg:px-8 max-w-5xl lg:max-w-7xl mx-auto relative z-10">
             <div class="grid lg:grid-cols-2 gap-10 xl:gap-14 items-center">
                 <div class="flex flex-col md:mt-0 mt-20 justify-center">
                     <div class="text-white lg:text-left" data-aos="fade-right">
@@ -78,8 +78,8 @@
                         p-4 backdrop-blur-sm border border-blue-500/30 -translate-y-6" data-aos="zoom-in"
                             data-aos-delay="500">
                             <div class="rounded-xl overflow-hidden">
-                                <img src="../../public/hero3.png" alt="Ibtihaj - Empty Stack Developer" loading="lazy"
-                                    class="w-125 h-125 object-contain -translate-y-8" />
+                                <img src="/hero3.png" alt="Ibtihaj - Empty Stack Developer" loading="lazy"
+                                    class="w-full h-auto object-contain -translate-y-8" />
                             </div>
                         </div>
                         <div
