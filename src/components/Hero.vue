@@ -76,9 +76,9 @@
                     <div class="relative w-full max-w-sm md:max-w-md lg:max-w-lg">
                         <div class="relative z-10 bg-linear-to-r from-blue-600 to-cyan-600 shadow-2xl 
         rounded-[50%_40%_30%_60%/60%_30%_70%_30%]
-        p-4 backdrop-blur-sm border border-blue-500/30" data-aos="zoom-in" data-aos-delay="500">
-                            <div class="rounded-xl overflow-hidden">
-                                <img src="../../public/hero3.png" alt="Ibtihaj - Front-End Developer" loading="lazy"
+        p-4 backdrop-blur-sm border border-blue-500/30 overflow-hidden" data-aos="zoom-in" data-aos-delay="500">
+                            <div class="rounded-xl">
+                                <img src="/hero3.png" alt="Ibtihaj - Front-End Developer" loading="lazy"
                                     class="w-full h-auto object-contain" />
                             </div>
                         </div>
